@@ -85,10 +85,19 @@
     </div>
   </section>
 
-  <!-- Contact Section -->s
+ <!-- Contact Section -->
   <footer class="footer" id="contact">
     <h2>Get In Touch</h2>
-    <p>Open for software engineering internships, hackathons, and collaborations.</p>
+    <p>Interested in collaborating or hiring? Drop a message below:</p>
+
+    <!-- Contact Form -->
+    <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="_replyto" placeholder="Your Email" required />
+      <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn primary-btn">Send Message</button>
+    </form>
+
     <div class="social-links">
       <a href="https://github.com" target="_blank">GitHub</a>
       <a href="https://linkedin.com" target="_blank">LinkedIn</a>
@@ -96,5 +105,6 @@
     </div>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
